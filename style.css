@@ -28,35 +28,30 @@ main{
     display: flex;
 
 }
-.background{
-  /*  position: relative;
-    align-items: center;
-    justify-content: center;
-    background-color: cornsilk;
-    margin-top: 5px;*/
-    position: absolute;
-width: 1291px;
-height: 636px;
-left: 74px;
-top: 132px;
 
-}
+
 .coca-cola{
-    /*position: absolute;
-    align-items: center;
-    justify-content: center;
-    background-color: darkgoldenrod;
-    */
-    position: absolute;
-    width: 201px;
-    height: 755px;
-    left: 620px;
-    top: 72px;
+position: absolute;
+width: 201px;
+height: 755px;
+left: 620px;
+top: 72px;
 
+background: url(coca-cola.png);
+}
+
+.cocacola-background{
+    position: absolute;
+    width: 1291px;
+    height: 636px;
+    left: 74px;
+    top: 132px;
+    
+    background: url(coca-cola-background2.png);
 }
 .map-footer{
-    height: 100vh;
-    width: 25vw;
+    height: 10vh;
+    width: 10vw;
 }
 footer{
     background-color: darkgreen;
